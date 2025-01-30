@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertifikat</title>
+   
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #000000;
+            color: #333;
+        }
+
+        .nav {
+            background-color: #000000;
+            color: #fff;
+            text-align: left;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 5%;
+            padding-bottom: 1%;
+        }
+
+        .nav h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        .nav h3 {
+            font-size: 1.2em;
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            cursor: pointer;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .gallery-item h4 {
+            padding: 10px;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: smaller;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.782);
+            border-radius: 0 0 8px 8px;
+            text-align: center;
+        }
+		.header .nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .nav ul li {
+  position: relative;
+}
+
+.header .nav ul li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -8px;
+  height: 1px;
+  background: white;
+  opacity: 0.5;
+  -webkit-transform-origin: left center;
+          transform-origin: left center;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
+.header .nav ul li:hover:before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.header .nav ul li + li {
+  margin-left: 50px;
+}
+
+.header .nav ul li a {
+  color: white;
+}
+
+        /* Modal Styles */
+        /* Add your modal styles here if needed */
+
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+            }
+        }
+    </style>
+</head>
+<body> 
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="logo">
+          <a href="./index.html">Farid Ardiansyah</a>
+        </div>
+    
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="./index.html">Sertifikat</a>
+            </li>
+            <li>
+              <a href="./about.html">about</a>
+            </li>
+            <li>
+              <a href="./contacts.html">Skill</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+      <div class="nav">
+        <h1>Sertifikat - Farid Ardiansyah</h1>
+        <h3><a href="" target="_blank" style="color: #cbcbcb; ">Instagram</a></h3>
+        <br/>
+        <p>Sertifikat ini sebagai dokumentasi pembelajaran dalam dunia ilmu teknologi./p>
+    </div>
+    <p>Sertifikat ini sebagai dokumentasi pembelajaran dalam dunia ilmu teknologi./p>
+    </div>
+	<p>Sertifikat ini sebagai dokumentasi pembelajaran dalam dunia ilmu teknologi./p>
+    </div>
+	<p>Sertifikat ini sebagai dokumentasi pembelajaran dalam dunia ilmu teknologi./p>
+    </div>
+	<p>Sertifikat ini sebagai dokumentasi pembelajaran dalam dunia ilmu teknologi./p>
+    </div>
+	<p>Sertifikat ini sebagai dokumentasi pembelajaran dalam dunia ilmu teknologi./p>
+    </div>
+
+</body>
+</html>
